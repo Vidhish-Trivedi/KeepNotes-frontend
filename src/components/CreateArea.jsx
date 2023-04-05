@@ -15,9 +15,12 @@ function CreateArea(props) {
     function handleAdd(event){
         props.onAdd({
             key: props.num + 1,
+            id: props.num,
             title: title,
             content: content
         });
+        setTitle("");
+        setContent("");
         event.preventDefault();
     }
 
