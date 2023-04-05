@@ -1,10 +1,10 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import Highlight from "@mui/icons-material/Highlight";
 
 function Header(){
     return(
         <header>
-            <h1>KeepNotes</h1>
+            <h1><Highlight />KeepNotes</h1>
         </header>
     );
 };
